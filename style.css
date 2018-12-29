@@ -1,11 +1,11 @@
-/* Remove margin and padding from page */
+/* 4. Remove margin and padding from page */
 html, body {
   margin: 0;
   padding: 0;
 }
 
 
-/* Box Sizing Reset */
+/* 5. Box Sizing Reset */
 html {
   box-sizing: border-box;
 }
@@ -14,7 +14,7 @@ html {
 }
 
 
-/* Make content more readable */
+/* 6. Make content more readable */
 body {
   color: #555;
   line-height: 1.5;
@@ -27,7 +27,7 @@ h1, h2, strong {
 }
 
 
-/* Centering Content */
+/* 7. Centering Content */
 .content {
   margin: 0 auto;
   max-width: 980px;
@@ -43,13 +43,13 @@ h1, h2, strong {
 }
 
 
-/* Custom Font */
+/* 8. Custom Font */
 body {
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
 
-/* Add a header */
+/* 9. Add a header image */
 header {
   background-image: url('https://images.unsplash.com/photo-1437650128481-845e6e35bd75?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=3300&q=80');
   background-position: center center;
@@ -79,7 +79,7 @@ header .text-container .text {
 }
 
 
-/* Add a Footer */
+/* 10. Add a Footer */
 footer {
   padding: 2em;
   text-align: center;
@@ -88,7 +88,7 @@ footer {
 }
 
 
-/* Reset list */
+/* 11. Reset list */
 ul.reset {
   padding: 0;
   margin: 0;
@@ -96,7 +96,7 @@ ul.reset {
 }
 
 
-/* Navigation Bar */
+/* 13. Navigation Bar */
 ul.navigation {
   margin: 2em 0 0;
   list-style-type: none;
@@ -114,7 +114,7 @@ ul.navigation li:hover { background-color: #F59C57; }
 ul.navigation li:last-child { margin-right: 0; }
 
 
-/* Styled Button */
+/* 13. Styled Button */
 button.styled {
   border: 0;
   background-color: #ED8630;
@@ -144,7 +144,7 @@ button.disabled {
 }
 
 
-/* Forms */
+/* 14. Forms */
 form.styled label { display: block; }
 form.styled input {
   width: 100%;
